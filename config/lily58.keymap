@@ -16,6 +16,11 @@
           bindings = <&kp RA(A)>;
           key-positions = <34 25>;
       };
+              n {
+	    timeout-ms = <200>;
+            bindings = <&kp RA(N)>;
+            key-positions = <34 44>;
+        };
 
       z {
           timeout-ms = <200>;
