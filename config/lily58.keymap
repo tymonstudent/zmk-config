@@ -22,6 +22,11 @@
           bindings = <&kp RA(Z)>;
           key-positions = <34 37>;
       };
+        s {
+            bindings = <&kp RA(S)>;
+            key-positions = <34 26>;
+            timeout-ms = <200>;
+        };
 
       x {
           timeout-ms = <200>;
@@ -29,10 +34,10 @@
           key-positions = <34 38>;
       };
 
-      e {
+      polishe {
           timeout-ms = <200>;
           bindings = <&kp RA(E)>;
-          key-positions = <34 14>;
+          key-positions = <34 15>;
       };
 
       c {
