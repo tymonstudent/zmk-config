@@ -8,43 +8,50 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
+  combos {
+      compatible = "zmk,combos";
+      
+      polisha {
+          timeout-ms = <200>;
+          bindings = <&kp RA(A)>;
+          key-positions = <34 25>;
+      };
 
-        polisha {
-            bindings = <&kp RA(A)>;
-            key-positions = <34 25>;
-        };
+      z {
+          timeout-ms = <200>;
+          bindings = <&kp RA(Z)>;
+          key-positions = <34 37>;
+      };
 
-        z {
-            bindings = <&kp RA(Z)>;
-            key-positions = <34 37>;
-        };
+      x {
+          timeout-ms = <200>;
+          bindings = <&kp RA(X)>;
+          key-positions = <34 38>;
+      };
 
-        x {
-            bindings = <&kp RA(X)>;
-            key-positions = <34 38>;
-        };
+      e {
+          timeout-ms = <200>;
+          bindings = <&kp RA(E)>;
+          key-positions = <34 14>;
+      };
 
-        e {
-            bindings = <&kp RA(E)>;
-            key-positions = <34 14>;
-        };
+      c {
+          timeout-ms = <200>;
+          bindings = <&kp RA(C)>;
+          key-positions = <34 39>;
+      };
 
-        c {
-            bindings = <&kp RA(C)>;
-            key-positions = <34 39>;
-        };
+      o {
+          timeout-ms = <200>;
+          bindings = <&kp RA(O)>;
+          key-positions = <34 21>;
+      };
 
-        o {
-            bindings = <&kp RA(O)>;
-            key-positions = <34 21>;
-        };
-
-        l {
-            bindings = <&kp RA(L)>;
-            key-positions = <34 33>;
-        };
+      l {
+          timeout-ms = <200>;
+          bindings = <&kp RA(L)>;
+          key-positions = <34 33>;
+      };
     };
 
     keymap {
